@@ -1,0 +1,12 @@
+{
+  "mass_train": "D:\\breast-cancer-detection-project\\ml\\data\\mammography_datasets\\cbis_ddsm\\processed_csv_artifacts_removed_cropped\\mass_case_description_train_set.csv",
+  "mass_test": "D:\\breast-cancer-detection-project\\ml\\data\\mammography_datasets\\cbis_ddsm\\processed_csv_artifacts_removed_cropped\\mass_case_description_test_set.csv",
+  "size": 128,
+  "model_name": "lesion-classification-11.h5",
+  "files_dir": "D:\\breast-cancer-detection\\ml\\mammography\\results\\11",
+  "batch_size": 16,
+  "lr": 1e-4,
+  "num_epochs": 500,
+  "early_stopping_patience": 20,
+  "optimizer": "Adam"
+}

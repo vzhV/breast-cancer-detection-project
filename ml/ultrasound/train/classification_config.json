@@ -1,0 +1,9 @@
+{
+  "train_val_test_dir": "D:\\breast-cancer-detection-project\\ml\\ultrasound\\data\\overlayed-images-split",
+  "batch_size": 8,
+  "model_name": "severity-classification-us.pth",
+  "save_path": "D:\\breast-cancer-detection\\ml\\ultrasound\\results\\6",
+  "lr": 1e-4,
+  "num_epochs": 30,
+  "early_stopping_patience": 10
+}
