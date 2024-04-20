@@ -1,0 +1,11 @@
+{
+  "dataset_path": "D:\\BUID",
+  "size": 128,
+  "model_name": "lesion-segmentation-us-6.h5",
+  "files_dir": "D:\\breast-cancer-detection\\ml\\ultrasound\\results\\6",
+  "batch_size": 16,
+  "lr": 1e-4,
+  "num_epochs": 500,
+  "early_stopping_patience": 20,
+  "optimizer": "Adam"
+}

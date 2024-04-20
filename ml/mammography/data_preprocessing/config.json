@@ -1,0 +1,4 @@
+{
+  "path_to_mammography_data": "ml\\data\\mammography_datasets",
+  "cbis_ddsm_url": "https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset/download"
+}

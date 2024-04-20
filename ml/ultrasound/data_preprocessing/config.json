@@ -1,0 +1,6 @@
+{
+  "data_dir": "D:\\BUID",
+  "use_overlay": true,
+  "save_dir": "D:\\breast-cancer-detection-project\\ml\\ultrasound\\data\\overlayed-images",
+  "train_val_test_dir": "D:\\breast-cancer-detection-project\\ml\\ultrasound\\data\\overlayed-images-split"
+}
