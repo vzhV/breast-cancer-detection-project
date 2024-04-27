@@ -1,2 +1,5 @@
 .idea
 **/data/
+**/weights/
+*.h5
+*.pth
