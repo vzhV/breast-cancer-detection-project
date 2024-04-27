@@ -1,0 +1,14 @@
+from enum import Enum
+
+
+class MammogramAction(str, Enum):
+    CLASSIFICATION = "CLASSIFICATION"
+    SEGMENTATION = "SEGMENTATION"
+    ALL = "ALL"
+
+
+class UltrasoundAction(str, Enum):
+    CLASSIFICATION = "CLASSIFICATION"
+    SEGMENTATION = "SEGMENTATION"
+    CLASSIFICATION_OVERLAYED = "CLASSIFICATION_OVERLAID"
+    ALL = "ALL"

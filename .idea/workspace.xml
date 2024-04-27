@@ -5,17 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85807af4-768f-48f9-8a35-d35f1dc56d6f" name="Changes" comment="ML part">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/dto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/input_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/ml_model_torch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/response_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/service/mammogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/service/ultrasound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/weights/mg_class.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/weights/mg_segm.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/weights/us_segm.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Button/PrimaryButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Button/SecondaryButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Checkbox/CheckboxField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/DicomViewer/DicomViewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Dropzone/Dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Dropzone/FileExceedNotification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/InferenceInfo/InferenceInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/MainLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ViewerPage/ViewerPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/MainRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="ml-part" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,25 +62,37 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2f2fzXyy4bUbO8W1Wvlt4HreDeq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ml-part",
-    "last_opened_file_path": "D:/breast-cancer-detection-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/breast-cancer-detection-project/backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python Console&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="breast-cancer-detection-project" is-module-sdk="true" working-directory="$PROJECT_DIR$/backend">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="breast-cancer-detection-project" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/backend" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="breast-cancer-detection-project" />
@@ -88,7 +135,11 @@
       <updated>1713004355289</updated>
       <workItem from="1713004356337" duration="602000" />
       <workItem from="1713619268264" duration="332000" />
-      <workItem from="1713619611795" duration="302000" />
+      <workItem from="1713619611795" duration="1056000" />
+      <workItem from="1713692129544" duration="1320000" />
+      <workItem from="1713694160605" duration="5619000" />
+      <workItem from="1713720677399" duration="6000" />
+      <workItem from="1714219583467" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="ML part">
       <option name="closed" value="true" />
@@ -106,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713619855941</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ML part">
+      <option name="closed" value="true" />
+      <created>1713620009012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713620009012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
