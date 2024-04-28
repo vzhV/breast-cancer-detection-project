@@ -2,7 +2,6 @@ import json
 import os
 import shutil
 from argparse import ArgumentParser, Namespace
-from typing import Union
 
 import data_preprocessing
 
