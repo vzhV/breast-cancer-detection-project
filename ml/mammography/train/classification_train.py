@@ -142,7 +142,7 @@ def main():
     ]
 
     input_shape = (config['size'], config['size'], 3)
-    model = classification.build_model(input_shape=input_shape, num_classes=1)
+    model = classification.build_model(input_shape=input_shape, num_classes=1, pretrained=config['use_pretrained'])
     model.compile(optimizer=config['optimizer'], loss='binary_crossentropy', metrics=['accuracy'])
 
     model.fit(

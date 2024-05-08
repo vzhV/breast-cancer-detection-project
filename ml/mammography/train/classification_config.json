@@ -8,5 +8,6 @@
   "lr": 1e-4,
   "num_epochs": 500,
   "early_stopping_patience": 20,
-  "optimizer": "Adam"
+  "optimizer": "Adam",
+  "use_pretrained": false
 }

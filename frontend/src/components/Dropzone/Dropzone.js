@@ -58,7 +58,7 @@ const Dropzone = ({ uploadFile, ...props }) => {
           {`Browse or drag & drop it here`}
         </Typography>
         <Typography variant={'body1'} fontWeight={400} fontSize={'14px'} color={'#707070'}>
-          {`DICOM format only`}
+          {`PNG or JPEG files only`}
         </Typography>
       </Box>
     </Box>
